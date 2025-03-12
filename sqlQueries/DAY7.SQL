@@ -28,4 +28,9 @@ From emp e inner join emp m
 On e.mgr=m.empno
 
 
+-- List all the student and their course details
+
+Select s.sid,s.sname,c.cid,cname
+from student s, Exammarks e.course c
+where s.sid= e.sid and e.cid- c.cid;
 
