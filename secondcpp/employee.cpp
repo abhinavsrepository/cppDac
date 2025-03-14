@@ -15,8 +15,8 @@ protected:
     double basic;
 
 public:
-    Employee(int id, string name, int deptId, double basic)
-        : id(id), name(name), deptId(deptId), basic(basic) {}
+    Employee(int id1, string name1, int deptId, double basic)
+        : id(id1), name(name1), deptId(deptId), basic(basic) {}
 
     // Virtual function for runtime polymorphism
     virtual double computeNetSalary() {
